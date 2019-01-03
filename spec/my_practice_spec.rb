@@ -5,7 +5,7 @@ describe 'Open baidu homepage' do
   dr = Selenium::WebDriver.for :chrome
   before :all do
     sleep 2
-    dr.manage.window.maximize
+    # dr.manage.window.maximize
   end
 
   after :all do
